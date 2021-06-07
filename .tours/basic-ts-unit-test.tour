@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "basic-ts-unit-test",
+  "steps": [
+    {
+      "file": "src/services/jokes-service.spec.ts",
+      "description": "This is what a basic unit test with module mocking could look like.",
+      "line": 7
+    },
+    {
+      "file": "src/services/jokes-service.spec.ts",
+      "description": "First, we mock the module `axios` since `getJoke` relies on it.",
+      "line": 4
+    },
+    {
+      "file": "src/services/jokes-service.spec.ts",
+      "description": "We then instantiate a mock instance of the `axios` object.",
+      "line": 5
+    },
+    {
+      "file": "src/services/jokes-service.ts",
+      "description": "By mocking the `axios` object, we should then be able to mock/spy on anything we do with that object.",
+      "line": 11
+    },
+    {
+      "file": "src/services/jokes-service.spec.ts",
+      "description": "This is where me augment the return value of the `get` method of the `axios` object.",
+      "line": 8
+    },
+    {
+      "file": "src/services/jokes-service.spec.ts",
+      "description": "And this is where we assert that the `get` method was called with a specified parameter.",
+      "line": 11
+    }
+  ]
+}

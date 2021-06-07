@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "basic component test",
+  "steps": [
+    {
+      "file": "src/components/Wrapper.spec.tsx",
+      "description": "At its very basic, a component test could look something like this.",
+      "line": 5
+    },
+    {
+      "file": "src/components/Wrapper.spec.tsx",
+      "description": "We would first render the component using the `render` method provided by `@testing-library/react`.",
+      "line": 6
+    },
+    {
+      "file": "src/components/Wrapper.spec.tsx",
+      "description": "Then we could assert that the resulting container matches a snaptshot.\r\n\r\nThis kind of test is useful for when you want to catch any changes to the HTML markup. More details can be had from [here](https://jestjs.io/docs/snapshot-testing).",
+      "line": 12
+    },
+    {
+      "file": "src/components/Wrapper.spec.tsx",
+      "description": "When authoring your components, it's useful to assign `data-testid` attributes to elements of interest. Using this approach is highly suggested over using the `id` or `class` attribtues.",
+      "line": 28
+    },
+    {
+      "file": "src/components/Wrapper.spec.tsx",
+      "description": "`@testing-library/react` has some useful methods that uses the attribute.",
+      "line": 32
+    }
+  ]
+}
